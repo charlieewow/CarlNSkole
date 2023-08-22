@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoppeklokke</title>
+    <style>
+        .wrapper{
+            background-color: green;
+            height: 320px;
+            width: 320px;
+            display: grid;
+            grid-template-columns: repeat(3,40%);
+           
+            padding: 10px;
+        }
+        .clockButton{
+           
+          
+            height:55px;
+            width: 50px;
+        }
+
+        .clockDisplay{
+            height:50px;
+            width:100px;
+            border: 1px solid black;
+            font-size: xx-large;
+          
+            background-color: antiquewhite;
+        }
+
+        .roundsList{
+            background-color: antiquewhite;
+            height:50px;
+            width:100px;
+            border: 1px solid black;
+           
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    
+       <div id="app" class="clockDisplay"></div><div id="lastRound" class="roundsList"> </div><br>
+
+    <button class="clockButton" onclick="start()">Start</button> 
+    <button class="clockButton" onclick="pause()">Pause</button>
+    <button class="clockButton" onclick="reset()">Reset</button>
+    
+</div>
+
+    <script>
+        const app = document.getElementById('app');
+        const roundTime = document.getElementById('lastRound');
+        let seconds = 0;
+        var timer;
+
+
+        
+        function start(){
+          setInterval(countSeconds, 1000);
+        }
+
+        function countSeconds(){
+            app.innerHTML = seconds;
+            seconds++;
+        }
+
+        function pause(){ 
+            roundTime.innerHTML += `<li>${seconds-1} sekunder</li>`;
+            clearInterval(timer);
+            seconds = 0;
+        }
+
+        function reset(){
+            location.reload()
+        }
+
+    </script>
+</body>
+</html>

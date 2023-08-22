@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksempel 1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="intro.js"></script>
+
+
+</head>
+
+<body>
+    <button onclick="ingenLayout()">Ingen Layout</button>
+    <button onclick="vertikalLayout()">Vertikal Layout</button>
+    <button onclick="horisontalLayout()">Horisontal Layout</button>
+    <button onclick="gridLayout()">Grid Layout</button>
+    <h1>Eksempel 1</h1>
+    <div id="allcards">
+
+        <div class="card">
+            <div class="header green" onclick="showTools()">
+                Verktøy
+            </div>
+            <div id="cardTools">
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="header blue" onclick="showHtml()">
+                HTML
+            </div>
+            <div id="cardHtml">
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="header red" onclick="showCss()">
+                CSS
+            </div>
+            <div id="cardCss">
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="header yellow" onclick="showJavaScript()">
+                JavaScript
+            </div>
+            <div id="cardJavaScript">
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="header dark" onclick="showGame()">
+                Hode, kropp og ben
+            </div>
+            <div id="cardGame" class="bodies">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
