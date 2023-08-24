@@ -57,12 +57,12 @@ function setcity(input){
 
 function setfood(input){
     food2 = input;
-    loadthis()
+    loadthis();
 
 }
 
 function sethobby(input){
     hobby2 = input;
-    loadthis()
+    loadthis();
 
 }
