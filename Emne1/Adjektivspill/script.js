@@ -22,17 +22,17 @@ function loadthis() {
             <div class="button" id="name1" onclick="setname(this.innerHTML)">Adrian</div>
             <div class="button" id="name1" onclick="setname(this.innerHTML)">Terje</div>
             <div class="button" id="city1" onclick="setcity(this.innerHTML)">Oslo</div>
-            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Larvik</div>
-            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Bergen</div>
-            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Trondheim</div>
-            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Taco</div>
-            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Pizza</div>
-            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Kebab</div>
-            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Pasta</div>
-            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Gå topptur</div>
-            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Sykkle</div>
-            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Løpe</div>
-            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Spille</div>
+            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Larvik.</div>
+            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Bergen.</div>
+            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Trondheim.</div>
+            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Taco.</div>
+            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Pizza.</div>
+            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Kebab.</div>
+            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Pasta.</div>
+            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Gå topptur.</div>
+            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Sykkle.</div>
+            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Løpe.</div>
+            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Spille.</div>
           
 
         </div>
