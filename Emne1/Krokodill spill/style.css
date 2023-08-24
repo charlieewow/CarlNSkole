@@ -1,0 +1,17 @@
+.container {
+    width: 250px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.points{    
+    margin-top: 15px;
+    height: 40px;
+    width: 250px;
+    font-size: xx-large;
+}
+
+.number{
+    font-size: x-large;
+
+}
