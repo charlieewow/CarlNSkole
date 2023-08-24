@@ -9,11 +9,11 @@ function loadthis() {
             <div>Hej jeg heter</div>
             <div class="name" id="name">${name2}</div>
             <div>og jeg bor i</div>
-            <div class="city" id="city">${city2}</div>
+            <div class="city" id="city">${city2}.</div>
             <div>Min favorit mat er</div>
-            <div class="food" id="food">${food2}</div>
+            <div class="food" id="food">${food2}.</div>
             <div>Jeg liker og</div>
-            <div class="hobby" id="hobby">${hobby2}</div>
+            <div class="hobby" id="hobby">${hobby2}.</div>
 
         </div>
         <div class="spill">
@@ -22,17 +22,17 @@ function loadthis() {
             <div class="button" id="name1" onclick="setname(this.innerHTML)">Adrian</div>
             <div class="button" id="name1" onclick="setname(this.innerHTML)">Terje</div>
             <div class="button" id="city1" onclick="setcity(this.innerHTML)">Oslo</div>
-            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Larvik.</div>
-            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Bergen.</div>
-            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Trondheim.</div>
-            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Taco.</div>
-            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Pizza.</div>
-            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Kebab.</div>
-            <div class="button" id="food1" onclick="setfood(this.innerHTML)">Pasta.</div>
-            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Gå topptur.</div>
-            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Sykkle.</div>
-            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Løpe.</div>
-            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">Spille.</div>
+            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Larvik</div>
+            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Bergen</div>
+            <div class="button" id="city1" onclick="setcity(this.innerHTML)">Trondheim</div>
+            <div class="button" id="food1" onclick="setfood(this.innerHTML)">taco</div>
+            <div class="button" id="food1" onclick="setfood(this.innerHTML)">pizza</div>
+            <div class="button" id="food1" onclick="setfood(this.innerHTML)">kebab</div>
+            <div class="button" id="food1" onclick="setfood(this.innerHTML)">pasta</div>
+            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">gå toppturer</div>
+            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">sykkle</div>
+            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">løpe</div>
+            <div class="button" id="hobby1" onclick="sethobby(this.innerHTML)">spille</div>
           
 
         </div>
