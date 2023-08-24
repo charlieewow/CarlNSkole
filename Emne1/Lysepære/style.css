@@ -1,0 +1,48 @@
+.container{
+    width: 250px;
+    height: 450px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.bulboff{
+    height: 200px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: grey;
+    opacity: 50%;
+    margin-top: 10px;
+
+}
+
+.bulbon{
+    height: 200px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: yellow;
+    margin-top: 10px;
+    
+
+}
+.bot{
+    border: 3px dotted black;
+    height: 35px;
+    width: 45px;
+    background-color: rgb(56, 53, 53);
+    border-radius: 10%;
+
+
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+
+}
