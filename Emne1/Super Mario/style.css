@@ -1,0 +1,36 @@
+
+.app {
+    border: 1px solid black;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#screen {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 450px;
+    border: solid 1px black;
+}
+
+.char_select {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 170px;
+    border: solid green 1px;
+}
+
+.char {
+    width: 25% ;
+    height: 150px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+  
+    margin: 3px;
+    padding: 3px;
+    
+}
+
