@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carln\\OneDrive\\Dokument\\CarlNSkole\\Emne3\\Emne3.csproj": {}
+    "C:\\Users\\carln\\OneDrive\\Dokument\\CarlNSkole\\Emne3\\c#\\Oppgave1\\Oppgave1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carln\\OneDrive\\Dokument\\CarlNSkole\\Emne3\\Emne3.csproj": {
+    "C:\\Users\\carln\\OneDrive\\Dokument\\CarlNSkole\\Emne3\\c#\\Oppgave1\\Oppgave1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carln\\OneDrive\\Dokument\\CarlNSkole\\Emne3\\Emne3.csproj",
-        "projectName": "Emne3",
-        "projectPath": "C:\\Users\\carln\\OneDrive\\Dokument\\CarlNSkole\\Emne3\\Emne3.csproj",
+        "projectUniqueName": "C:\\Users\\carln\\OneDrive\\Dokument\\CarlNSkole\\Emne3\\c#\\Oppgave1\\Oppgave1.csproj",
+        "projectName": "Oppgave1",
+        "projectPath": "C:\\Users\\carln\\OneDrive\\Dokument\\CarlNSkole\\Emne3\\c#\\Oppgave1\\Oppgave1.csproj",
         "packagesPath": "C:\\Users\\carln\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carln\\OneDrive\\Dokument\\CarlNSkole\\Emne3\\obj\\",
+        "outputPath": "C:\\Users\\carln\\OneDrive\\Dokument\\CarlNSkole\\Emne3\\c#\\Oppgave1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carln\\AppData\\Roaming\\NuGet\\NuGet.Config",
